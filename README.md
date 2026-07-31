@@ -186,12 +186,12 @@ Test coverage includes:
 
 This repository follows Git Flow:
 
-- `main` — production-ready releases.
+- `master` — production-ready releases.
 - `develop` — integration branch.
 - `feature/*` — one branch per feature (users/RBAC, document CRUD, MinIO
   storage, filtering & pagination, Celery/audit/Channels/Nginx bonus
   features, tests & docs), merged into `develop` via PR, then released to
-  `main`.
+  `master`.
 
 ## Notes on Reproducing Migrations
 
